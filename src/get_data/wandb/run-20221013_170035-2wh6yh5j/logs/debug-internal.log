@@ -1,0 +1,137 @@
+2022-10-13 17:00:36,119 INFO    MainThread:9259 [internal.py:wandb_internal():88] W&B internal server running at pid: 9259, started at: 2022-10-13 17:00:36.119714
+2022-10-13 17:00:36,122 INFO    WriterThread:9259 [datastore.py:open_for_write():77] open: /home/smartrue/Dropbox/current_codes/udacity/short-term-rental-prices/src/get_data/wandb/run-20221013_170035-2wh6yh5j/run-2wh6yh5j.wandb
+2022-10-13 17:00:36,122 DEBUG   HandlerThread:9259 [handler.py:handle_request():124] handle_request: check_version
+2022-10-13 17:00:36,125 DEBUG   SenderThread:9259 [sender.py:send():179] send: header
+2022-10-13 17:00:36,125 DEBUG   SenderThread:9259 [sender.py:send_request():193] send_request: check_version
+2022-10-13 17:00:36,320 DEBUG   SenderThread:9259 [sender.py:send():179] send: run
+2022-10-13 17:00:36,329 DEBUG   SenderThread:9259 [git.py:repo():33] git repository is invalid
+2022-10-13 17:00:36,741 INFO    SenderThread:9259 [dir_watcher.py:__init__():168] watching files in: /home/smartrue/Dropbox/current_codes/udacity/short-term-rental-prices/src/get_data/wandb/run-20221013_170035-2wh6yh5j/files
+2022-10-13 17:00:36,742 INFO    SenderThread:9259 [sender.py:_start_run_threads():704] run started: 2wh6yh5j with start time 1665669635
+2022-10-13 17:00:36,742 DEBUG   SenderThread:9259 [sender.py:send():179] send: summary
+2022-10-13 17:00:36,742 DEBUG   HandlerThread:9259 [handler.py:handle_request():124] handle_request: run_start
+2022-10-13 17:00:36,743 INFO    SenderThread:9259 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2022-10-13 17:00:36,751 DEBUG   HandlerThread:9259 [meta.py:__init__():39] meta init
+2022-10-13 17:00:36,751 DEBUG   HandlerThread:9259 [meta.py:__init__():53] meta init done
+2022-10-13 17:00:36,751 DEBUG   HandlerThread:9259 [meta.py:probe():210] probe
+2022-10-13 17:00:36,758 DEBUG   HandlerThread:9259 [git.py:repo():33] git repository is invalid
+2022-10-13 17:00:36,758 DEBUG   HandlerThread:9259 [meta.py:_save_pip():57] save pip
+2022-10-13 17:00:36,759 DEBUG   HandlerThread:9259 [meta.py:_save_pip():71] save pip done
+2022-10-13 17:00:36,759 DEBUG   HandlerThread:9259 [meta.py:_save_conda():78] save conda
+2022-10-13 17:00:37,747 INFO    Thread-8  :9259 [dir_watcher.py:_on_file_created():216] file/dir created: /home/smartrue/Dropbox/current_codes/udacity/short-term-rental-prices/src/get_data/wandb/run-20221013_170035-2wh6yh5j/files/wandb-summary.json
+2022-10-13 17:00:37,748 INFO    Thread-8  :9259 [dir_watcher.py:_on_file_created():216] file/dir created: /home/smartrue/Dropbox/current_codes/udacity/short-term-rental-prices/src/get_data/wandb/run-20221013_170035-2wh6yh5j/files/conda-environment.yaml
+2022-10-13 17:00:37,749 INFO    Thread-8  :9259 [dir_watcher.py:_on_file_created():216] file/dir created: /home/smartrue/Dropbox/current_codes/udacity/short-term-rental-prices/src/get_data/wandb/run-20221013_170035-2wh6yh5j/files/requirements.txt
+2022-10-13 17:00:38,136 DEBUG   HandlerThread:9259 [meta.py:_save_conda():86] save conda done
+2022-10-13 17:00:38,136 DEBUG   HandlerThread:9259 [meta.py:probe():252] probe done
+2022-10-13 17:00:38,139 DEBUG   SenderThread:9259 [sender.py:send():179] send: files
+2022-10-13 17:00:38,139 INFO    SenderThread:9259 [sender.py:_save_file():829] saving file wandb-metadata.json with policy now
+2022-10-13 17:00:38,146 DEBUG   HandlerThread:9259 [handler.py:handle_request():124] handle_request: stop_status
+2022-10-13 17:00:38,146 DEBUG   SenderThread:9259 [sender.py:send_request():193] send_request: stop_status
+2022-10-13 17:00:38,384 DEBUG   SenderThread:9259 [sender.py:send():179] send: config
+2022-10-13 17:00:38,745 INFO    Thread-8  :9259 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/smartrue/Dropbox/current_codes/udacity/short-term-rental-prices/src/get_data/wandb/run-20221013_170035-2wh6yh5j/files/conda-environment.yaml
+2022-10-13 17:00:38,745 INFO    Thread-8  :9259 [dir_watcher.py:_on_file_created():216] file/dir created: /home/smartrue/Dropbox/current_codes/udacity/short-term-rental-prices/src/get_data/wandb/run-20221013_170035-2wh6yh5j/files/output.log
+2022-10-13 17:00:38,746 INFO    Thread-8  :9259 [dir_watcher.py:_on_file_created():216] file/dir created: /home/smartrue/Dropbox/current_codes/udacity/short-term-rental-prices/src/get_data/wandb/run-20221013_170035-2wh6yh5j/files/wandb-metadata.json
+2022-10-13 17:00:38,891 INFO    Thread-11 :9259 [upload_job.py:push():133] Uploaded file /tmp/tmpeh7f50g6wandb/2z9gktx3-wandb-metadata.json
+2022-10-13 17:00:39,743 INFO    Thread-8  :9259 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/smartrue/Dropbox/current_codes/udacity/short-term-rental-prices/src/get_data/wandb/run-20221013_170035-2wh6yh5j/files/config.yaml
+2022-10-13 17:00:40,659 DEBUG   SenderThread:9259 [sender.py:send():179] send: telemetry
+2022-10-13 17:00:40,660 DEBUG   HandlerThread:9259 [handler.py:handle_request():124] handle_request: poll_exit
+2022-10-13 17:00:40,743 INFO    Thread-8  :9259 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/smartrue/Dropbox/current_codes/udacity/short-term-rental-prices/src/get_data/wandb/run-20221013_170035-2wh6yh5j/files/output.log
+2022-10-13 17:00:40,921 DEBUG   SenderThread:9259 [sender.py:send():179] send: exit
+2022-10-13 17:00:40,922 INFO    SenderThread:9259 [sender.py:send_exit():287] handling exit code: 1
+2022-10-13 17:00:40,922 INFO    SenderThread:9259 [sender.py:send_exit():295] send defer
+2022-10-13 17:00:40,922 DEBUG   SenderThread:9259 [sender.py:send_request():193] send_request: poll_exit
+2022-10-13 17:00:40,923 DEBUG   HandlerThread:9259 [handler.py:handle_request():124] handle_request: defer
+2022-10-13 17:00:40,923 INFO    HandlerThread:9259 [handler.py:handle_request_defer():141] handle defer: 0
+2022-10-13 17:00:40,923 DEBUG   SenderThread:9259 [sender.py:send_request():193] send_request: defer
+2022-10-13 17:00:40,923 INFO    SenderThread:9259 [sender.py:send_request_defer():304] handle sender defer: 0
+2022-10-13 17:00:40,923 INFO    SenderThread:9259 [sender.py:send_request_defer():342] send defer: 1
+2022-10-13 17:00:40,924 DEBUG   HandlerThread:9259 [handler.py:handle_request():124] handle_request: defer
+2022-10-13 17:00:40,924 INFO    HandlerThread:9259 [handler.py:handle_request_defer():141] handle defer: 1
+2022-10-13 17:00:41,008 DEBUG   SenderThread:9259 [sender.py:send_request():193] send_request: defer
+2022-10-13 17:00:41,009 INFO    SenderThread:9259 [sender.py:send_request_defer():304] handle sender defer: 1
+2022-10-13 17:00:41,009 INFO    SenderThread:9259 [sender.py:send_request_defer():342] send defer: 2
+2022-10-13 17:00:41,009 DEBUG   SenderThread:9259 [sender.py:send():179] send: stats
+2022-10-13 17:00:41,009 DEBUG   HandlerThread:9259 [handler.py:handle_request():124] handle_request: defer
+2022-10-13 17:00:41,011 INFO    HandlerThread:9259 [handler.py:handle_request_defer():141] handle defer: 2
+2022-10-13 17:00:41,012 DEBUG   SenderThread:9259 [sender.py:send_request():193] send_request: defer
+2022-10-13 17:00:41,012 INFO    SenderThread:9259 [sender.py:send_request_defer():304] handle sender defer: 2
+2022-10-13 17:00:41,012 INFO    SenderThread:9259 [sender.py:send_request_defer():342] send defer: 3
+2022-10-13 17:00:41,012 DEBUG   HandlerThread:9259 [handler.py:handle_request():124] handle_request: defer
+2022-10-13 17:00:41,012 INFO    HandlerThread:9259 [handler.py:handle_request_defer():141] handle defer: 3
+2022-10-13 17:00:41,012 DEBUG   SenderThread:9259 [sender.py:send():179] send: summary
+2022-10-13 17:00:41,013 INFO    SenderThread:9259 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2022-10-13 17:00:41,013 DEBUG   SenderThread:9259 [sender.py:send_request():193] send_request: defer
+2022-10-13 17:00:41,013 INFO    SenderThread:9259 [sender.py:send_request_defer():304] handle sender defer: 3
+2022-10-13 17:00:41,013 INFO    SenderThread:9259 [sender.py:send_request_defer():342] send defer: 4
+2022-10-13 17:00:41,013 DEBUG   HandlerThread:9259 [handler.py:handle_request():124] handle_request: defer
+2022-10-13 17:00:41,013 INFO    HandlerThread:9259 [handler.py:handle_request_defer():141] handle defer: 4
+2022-10-13 17:00:41,013 DEBUG   SenderThread:9259 [sender.py:send_request():193] send_request: defer
+2022-10-13 17:00:41,013 INFO    SenderThread:9259 [sender.py:send_request_defer():304] handle sender defer: 4
+2022-10-13 17:00:41,013 INFO    SenderThread:9259 [sender.py:send_request_defer():342] send defer: 5
+2022-10-13 17:00:41,013 DEBUG   HandlerThread:9259 [handler.py:handle_request():124] handle_request: defer
+2022-10-13 17:00:41,013 INFO    HandlerThread:9259 [handler.py:handle_request_defer():141] handle defer: 5
+2022-10-13 17:00:41,014 DEBUG   SenderThread:9259 [sender.py:send_request():193] send_request: defer
+2022-10-13 17:00:41,014 INFO    SenderThread:9259 [sender.py:send_request_defer():304] handle sender defer: 5
+2022-10-13 17:00:41,014 INFO    SenderThread:9259 [dir_watcher.py:finish():282] shutting down directory watcher
+2022-10-13 17:00:41,025 DEBUG   HandlerThread:9259 [handler.py:handle_request():124] handle_request: poll_exit
+2022-10-13 17:00:41,744 INFO    Thread-8  :9259 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/smartrue/Dropbox/current_codes/udacity/short-term-rental-prices/src/get_data/wandb/run-20221013_170035-2wh6yh5j/files/config.yaml
+2022-10-13 17:00:41,745 INFO    SenderThread:9259 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/smartrue/Dropbox/current_codes/udacity/short-term-rental-prices/src/get_data/wandb/run-20221013_170035-2wh6yh5j/files/wandb-summary.json
+2022-10-13 17:00:41,745 INFO    SenderThread:9259 [dir_watcher.py:finish():312] scan: /home/smartrue/Dropbox/current_codes/udacity/short-term-rental-prices/src/get_data/wandb/run-20221013_170035-2wh6yh5j/files
+2022-10-13 17:00:41,745 INFO    SenderThread:9259 [dir_watcher.py:finish():318] scan save: /home/smartrue/Dropbox/current_codes/udacity/short-term-rental-prices/src/get_data/wandb/run-20221013_170035-2wh6yh5j/files/config.yaml config.yaml
+2022-10-13 17:00:41,746 INFO    SenderThread:9259 [dir_watcher.py:finish():318] scan save: /home/smartrue/Dropbox/current_codes/udacity/short-term-rental-prices/src/get_data/wandb/run-20221013_170035-2wh6yh5j/files/wandb-metadata.json wandb-metadata.json
+2022-10-13 17:00:41,746 INFO    SenderThread:9259 [dir_watcher.py:finish():318] scan save: /home/smartrue/Dropbox/current_codes/udacity/short-term-rental-prices/src/get_data/wandb/run-20221013_170035-2wh6yh5j/files/requirements.txt requirements.txt
+2022-10-13 17:00:41,746 INFO    SenderThread:9259 [dir_watcher.py:finish():318] scan save: /home/smartrue/Dropbox/current_codes/udacity/short-term-rental-prices/src/get_data/wandb/run-20221013_170035-2wh6yh5j/files/output.log output.log
+2022-10-13 17:00:41,755 INFO    SenderThread:9259 [dir_watcher.py:finish():318] scan save: /home/smartrue/Dropbox/current_codes/udacity/short-term-rental-prices/src/get_data/wandb/run-20221013_170035-2wh6yh5j/files/conda-environment.yaml conda-environment.yaml
+2022-10-13 17:00:41,762 INFO    SenderThread:9259 [dir_watcher.py:finish():318] scan save: /home/smartrue/Dropbox/current_codes/udacity/short-term-rental-prices/src/get_data/wandb/run-20221013_170035-2wh6yh5j/files/wandb-summary.json wandb-summary.json
+2022-10-13 17:00:41,767 INFO    SenderThread:9259 [sender.py:send_request_defer():342] send defer: 6
+2022-10-13 17:00:41,767 DEBUG   SenderThread:9259 [sender.py:send_request():193] send_request: poll_exit
+2022-10-13 17:00:41,774 DEBUG   HandlerThread:9259 [handler.py:handle_request():124] handle_request: defer
+2022-10-13 17:00:41,774 INFO    HandlerThread:9259 [handler.py:handle_request_defer():141] handle defer: 6
+2022-10-13 17:00:41,775 DEBUG   SenderThread:9259 [sender.py:send_request():193] send_request: defer
+2022-10-13 17:00:41,775 INFO    SenderThread:9259 [sender.py:send_request_defer():304] handle sender defer: 6
+2022-10-13 17:00:41,775 INFO    SenderThread:9259 [file_pusher.py:finish():176] shutting down file pusher
+2022-10-13 17:00:41,775 INFO    SenderThread:9259 [sender.py:send_request_defer():342] send defer: 7
+2022-10-13 17:00:41,776 DEBUG   HandlerThread:9259 [handler.py:handle_request():124] handle_request: defer
+2022-10-13 17:00:41,776 INFO    HandlerThread:9259 [handler.py:handle_request_defer():141] handle defer: 7
+2022-10-13 17:00:41,776 DEBUG   SenderThread:9259 [sender.py:send_request():193] send_request: defer
+2022-10-13 17:00:41,776 INFO    SenderThread:9259 [sender.py:send_request_defer():304] handle sender defer: 7
+2022-10-13 17:00:41,870 DEBUG   HandlerThread:9259 [handler.py:handle_request():124] handle_request: poll_exit
+2022-10-13 17:00:42,201 INFO    SenderThread:9259 [sender.py:send_request_defer():342] send defer: 8
+2022-10-13 17:00:42,201 DEBUG   SenderThread:9259 [sender.py:send_request():193] send_request: poll_exit
+2022-10-13 17:00:42,202 DEBUG   HandlerThread:9259 [handler.py:handle_request():124] handle_request: defer
+2022-10-13 17:00:42,202 INFO    HandlerThread:9259 [handler.py:handle_request_defer():141] handle defer: 8
+2022-10-13 17:00:42,203 DEBUG   SenderThread:9259 [sender.py:send_request():193] send_request: defer
+2022-10-13 17:00:42,203 INFO    SenderThread:9259 [sender.py:send_request_defer():304] handle sender defer: 8
+2022-10-13 17:00:42,203 INFO    SenderThread:9259 [sender.py:send_request_defer():342] send defer: 9
+2022-10-13 17:00:42,204 DEBUG   SenderThread:9259 [sender.py:send():179] send: final
+2022-10-13 17:00:42,204 DEBUG   HandlerThread:9259 [handler.py:handle_request():124] handle_request: defer
+2022-10-13 17:00:42,204 DEBUG   SenderThread:9259 [sender.py:send():179] send: footer
+2022-10-13 17:00:42,205 INFO    HandlerThread:9259 [handler.py:handle_request_defer():141] handle defer: 9
+2022-10-13 17:00:42,205 DEBUG   SenderThread:9259 [sender.py:send_request():193] send_request: defer
+2022-10-13 17:00:42,205 INFO    SenderThread:9259 [sender.py:send_request_defer():304] handle sender defer: 9
+2022-10-13 17:00:42,304 DEBUG   HandlerThread:9259 [handler.py:handle_request():124] handle_request: poll_exit
+2022-10-13 17:00:42,304 DEBUG   SenderThread:9259 [sender.py:send_request():193] send_request: poll_exit
+2022-10-13 17:00:42,407 DEBUG   HandlerThread:9259 [handler.py:handle_request():124] handle_request: poll_exit
+2022-10-13 17:00:42,407 DEBUG   SenderThread:9259 [sender.py:send_request():193] send_request: poll_exit
+2022-10-13 17:00:42,509 DEBUG   HandlerThread:9259 [handler.py:handle_request():124] handle_request: poll_exit
+2022-10-13 17:00:42,509 DEBUG   SenderThread:9259 [sender.py:send_request():193] send_request: poll_exit
+2022-10-13 17:00:42,516 INFO    Thread-12 :9259 [upload_job.py:push():133] Uploaded file /home/smartrue/Dropbox/current_codes/udacity/short-term-rental-prices/src/get_data/wandb/run-20221013_170035-2wh6yh5j/files/config.yaml
+2022-10-13 17:00:42,517 INFO    Thread-13 :9259 [upload_job.py:push():133] Uploaded file /home/smartrue/Dropbox/current_codes/udacity/short-term-rental-prices/src/get_data/wandb/run-20221013_170035-2wh6yh5j/files/requirements.txt
+2022-10-13 17:00:42,520 INFO    Thread-14 :9259 [upload_job.py:push():133] Uploaded file /home/smartrue/Dropbox/current_codes/udacity/short-term-rental-prices/src/get_data/wandb/run-20221013_170035-2wh6yh5j/files/output.log
+2022-10-13 17:00:42,530 INFO    Thread-15 :9259 [upload_job.py:push():133] Uploaded file /home/smartrue/Dropbox/current_codes/udacity/short-term-rental-prices/src/get_data/wandb/run-20221013_170035-2wh6yh5j/files/conda-environment.yaml
+2022-10-13 17:00:42,535 INFO    Thread-16 :9259 [upload_job.py:push():133] Uploaded file /home/smartrue/Dropbox/current_codes/udacity/short-term-rental-prices/src/get_data/wandb/run-20221013_170035-2wh6yh5j/files/wandb-summary.json
+2022-10-13 17:00:42,611 DEBUG   HandlerThread:9259 [handler.py:handle_request():124] handle_request: poll_exit
+2022-10-13 17:00:42,612 DEBUG   SenderThread:9259 [sender.py:send_request():193] send_request: poll_exit
+2022-10-13 17:00:42,714 DEBUG   HandlerThread:9259 [handler.py:handle_request():124] handle_request: poll_exit
+2022-10-13 17:00:42,714 DEBUG   SenderThread:9259 [sender.py:send_request():193] send_request: poll_exit
+2022-10-13 17:00:42,816 DEBUG   HandlerThread:9259 [handler.py:handle_request():124] handle_request: poll_exit
+2022-10-13 17:00:42,817 DEBUG   SenderThread:9259 [sender.py:send_request():193] send_request: poll_exit
+2022-10-13 17:00:42,817 INFO    SenderThread:9259 [file_pusher.py:join():181] waiting for file pusher
+2022-10-13 17:00:42,819 DEBUG   HandlerThread:9259 [handler.py:handle_request():124] handle_request: get_summary
+2022-10-13 17:00:42,820 DEBUG   HandlerThread:9259 [handler.py:handle_request():124] handle_request: sampled_history
+2022-10-13 17:00:42,820 DEBUG   HandlerThread:9259 [handler.py:handle_request():124] handle_request: shutdown
+2022-10-13 17:00:42,821 INFO    HandlerThread:9259 [handler.py:finish():638] shutting down handler
+2022-10-13 17:00:43,204 INFO    WriterThread:9259 [datastore.py:close():258] close: /home/smartrue/Dropbox/current_codes/udacity/short-term-rental-prices/src/get_data/wandb/run-20221013_170035-2wh6yh5j/run-2wh6yh5j.wandb
+2022-10-13 17:00:43,818 INFO    SenderThread:9259 [sender.py:finish():933] shutting down sender
+2022-10-13 17:00:43,818 INFO    SenderThread:9259 [file_pusher.py:finish():176] shutting down file pusher
+2022-10-13 17:00:43,818 INFO    SenderThread:9259 [file_pusher.py:join():181] waiting for file pusher
+2022-10-13 17:00:43,819 INFO    MainThread:9259 [internal.py:handle_exit():78] Internal process exited

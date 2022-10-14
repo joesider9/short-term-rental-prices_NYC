@@ -1,0 +1,15 @@
+artifact_uri: file:///home/smartrue/Dropbox/current_codes/udacity/short-term-rental-prices/mlruns/0/f578cfa25eed403aa7f6de588619189a/artifacts
+end_time: 1665669178789
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: f578cfa25eed403aa7f6de588619189a
+run_uuid: f578cfa25eed403aa7f6de588619189a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1665669168168
+status: 4
+tags: []
+user_id: smartrue

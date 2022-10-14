@@ -1,0 +1,25 @@
+2022-10-14 10:40:41,932 INFO    MainThread:9761 [internal.py:wandb_internal():88] W&B internal server running at pid: 9761, started at: 2022-10-14 10:40:41.932336
+2022-10-14 10:40:41,942 DEBUG   SenderThread:9761 [sender.py:send():122] send: header
+2022-10-14 10:40:41,942 DEBUG   HandlerThread:9761 [handler.py:handle_request():101] handle_request: check_version
+2022-10-14 10:40:41,942 INFO    WriterThread:9761 [datastore.py:open_for_write():77] open: /home/smartrue/Dropbox/current_codes/udacity/short-term-rental-prices/src/data_check/wandb/run-20221014_104041-gk5zeoec/run-gk5zeoec.wandb
+2022-10-14 10:40:41,943 DEBUG   SenderThread:9761 [sender.py:send():122] send: request
+2022-10-14 10:40:41,943 DEBUG   SenderThread:9761 [sender.py:send_request():131] send_request: check_version
+2022-10-14 10:40:42,264 DEBUG   SenderThread:9761 [sender.py:send():122] send: run
+2022-10-14 10:40:42,267 INFO    SenderThread:9761 [sender.py:_maybe_setup_resume():312] checking resume status for None/nyc_airbnb/gk5zeoec
+2022-10-14 10:40:42,785 DEBUG   SenderThread:9761 [git.py:repo():33] git repository is invalid
+2022-10-14 10:40:43,118 INFO    SenderThread:9761 [sender.py:_start_run_threads():596] run started: gk5zeoec with start time 1665733241
+2022-10-14 10:40:43,118 DEBUG   SenderThread:9761 [sender.py:send():122] send: summary
+2022-10-14 10:40:43,118 INFO    SenderThread:9761 [sender.py:_save_file():730] saving file wandb-summary.json with policy end
+2022-10-14 10:40:43,120 DEBUG   HandlerThread:9761 [handler.py:handle_request():101] handle_request: run_start
+2022-10-14 10:40:43,128 DEBUG   HandlerThread:9761 [meta.py:__init__():34] meta init
+2022-10-14 10:40:43,128 DEBUG   HandlerThread:9761 [meta.py:__init__():48] meta init done
+2022-10-14 10:40:43,129 DEBUG   HandlerThread:9761 [meta.py:probe():190] probe
+2022-10-14 10:40:43,135 DEBUG   HandlerThread:9761 [git.py:repo():33] git repository is invalid
+2022-10-14 10:40:43,135 DEBUG   HandlerThread:9761 [meta.py:_save_pip():52] save pip
+2022-10-14 10:40:43,136 DEBUG   HandlerThread:9761 [meta.py:_save_pip():66] save pip done
+2022-10-14 10:40:43,136 DEBUG   HandlerThread:9761 [meta.py:probe():231] probe done
+2022-10-14 10:40:43,138 DEBUG   SenderThread:9761 [sender.py:send():122] send: files
+2022-10-14 10:40:43,138 INFO    SenderThread:9761 [sender.py:_save_file():730] saving file wandb-metadata.json with policy now
+2022-10-14 10:40:43,143 DEBUG   HandlerThread:9761 [handler.py:handle_request():101] handle_request: status
+2022-10-14 10:40:43,143 DEBUG   SenderThread:9761 [sender.py:send():122] send: request
+2022-10-14 10:40:43,143 DEBUG   SenderThread:9761 [sender.py:send_request():131] send_request: status

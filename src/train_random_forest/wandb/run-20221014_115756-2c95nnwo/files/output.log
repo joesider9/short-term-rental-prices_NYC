@@ -1,0 +1,13 @@
+2022-10-14 11:57:59,153 Minimum price: 10, Maximum price: 350
+2022-10-14 11:57:59,165 Preparing sklearn pipeline
+2022-10-14 11:57:59,166 Fitting
+2022-10-14 11:58:04,312 Scoring
+2022-10-14 11:58:04,454 Score: 0.5223673096700076
+2022-10-14 11:58:04,454 MAE: 34.086901315789476
+2022-10-14 11:58:04,454 Exporting model
+Traceback (most recent call last):
+  File "run.py", line 293, in <module>
+    go(args)
+  File "run.py", line 102, in go
+    signature=signature,
+NameError: name 'signature' is not defined

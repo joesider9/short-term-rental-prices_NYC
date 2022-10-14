@@ -1,0 +1,30 @@
+{
+    "os": "Linux-5.4.0-73-generic-x86_64-with-glibc2.27",
+    "python": "3.9.13",
+    "heartbeatAt": "2022-10-14T07:40:43.129146",
+    "startedAt": "2022-10-14T07:40:41.502387",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 2080 Ti",
+    "gpu_count": 2,
+    "cpu_count": 20,
+    "cuda": "10.0.130",
+    "args": [
+        ".",
+        "-vv",
+        "--csv",
+        "clean_sample.csv:latest",
+        "--ref",
+        "clean_sample.csv:reference",
+        "--kl_threshold",
+        "0.2",
+        "--min_price",
+        "10",
+        "--max_price",
+        "350"
+    ],
+    "state": "running",
+    "program": "<python with no main file>",
+    "host": "smartrue-System-Product-Name",
+    "username": "smartrue",
+    "executable": "/home/smartrue/anaconda3/envs/mlflow-1c05954ab86e0bba4eb70d62eef82affb4f442db/bin/python"
+}

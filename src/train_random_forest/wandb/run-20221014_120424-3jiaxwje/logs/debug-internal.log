@@ -1,0 +1,124 @@
+2022-10-14 12:04:25,103 INFO    MainThread:7156 [internal.py:wandb_internal():88] W&B internal server running at pid: 7156, started at: 2022-10-14 12:04:25.103538
+2022-10-14 12:04:25,105 DEBUG   HandlerThread:7156 [handler.py:handle_request():101] handle_request: check_version
+2022-10-14 12:04:25,105 INFO    WriterThread:7156 [datastore.py:open_for_write():77] open: /home/smartrue/Dropbox/current_codes/udacity/short-term-rental-prices/src/train_random_forest/wandb/run-20221014_120424-3jiaxwje/run-3jiaxwje.wandb
+2022-10-14 12:04:25,108 DEBUG   SenderThread:7156 [sender.py:send():122] send: header
+2022-10-14 12:04:25,108 DEBUG   SenderThread:7156 [sender.py:send():122] send: request
+2022-10-14 12:04:25,108 DEBUG   SenderThread:7156 [sender.py:send_request():131] send_request: check_version
+2022-10-14 12:04:25,282 DEBUG   SenderThread:7156 [sender.py:send():122] send: run
+2022-10-14 12:04:25,293 DEBUG   SenderThread:7156 [git.py:repo():33] git repository is invalid
+2022-10-14 12:04:25,565 DEBUG   HandlerThread:7156 [handler.py:handle_request():101] handle_request: run_start
+2022-10-14 12:04:25,567 INFO    SenderThread:7156 [sender.py:_start_run_threads():596] run started: 3jiaxwje with start time 1665738264
+2022-10-14 12:04:25,567 DEBUG   SenderThread:7156 [sender.py:send():122] send: summary
+2022-10-14 12:04:25,568 INFO    SenderThread:7156 [sender.py:_save_file():730] saving file wandb-summary.json with policy end
+2022-10-14 12:04:25,571 DEBUG   HandlerThread:7156 [meta.py:__init__():34] meta init
+2022-10-14 12:04:25,572 DEBUG   HandlerThread:7156 [meta.py:__init__():48] meta init done
+2022-10-14 12:04:25,572 DEBUG   HandlerThread:7156 [meta.py:probe():190] probe
+2022-10-14 12:04:25,578 DEBUG   HandlerThread:7156 [git.py:repo():33] git repository is invalid
+2022-10-14 12:04:25,578 DEBUG   HandlerThread:7156 [meta.py:_save_pip():52] save pip
+2022-10-14 12:04:25,579 DEBUG   HandlerThread:7156 [meta.py:_save_pip():66] save pip done
+2022-10-14 12:04:25,579 DEBUG   HandlerThread:7156 [meta.py:probe():231] probe done
+2022-10-14 12:04:25,581 DEBUG   SenderThread:7156 [sender.py:send():122] send: files
+2022-10-14 12:04:25,582 INFO    SenderThread:7156 [sender.py:_save_file():730] saving file wandb-metadata.json with policy now
+2022-10-14 12:04:25,591 DEBUG   HandlerThread:7156 [handler.py:handle_request():101] handle_request: status
+2022-10-14 12:04:25,591 DEBUG   SenderThread:7156 [sender.py:send():122] send: request
+2022-10-14 12:04:25,592 DEBUG   SenderThread:7156 [sender.py:send_request():131] send_request: status
+2022-10-14 12:04:26,023 DEBUG   SenderThread:7156 [sender.py:send():122] send: config
+2022-10-14 12:04:26,281 DEBUG   SenderThread:7156 [sender.py:send():122] send: config
+2022-10-14 12:04:29,164 DEBUG   SenderThread:7156 [sender.py:send():122] send: stats
+2022-10-14 12:04:33,795 DEBUG   SenderThread:7156 [sender.py:send():122] send: stats
+2022-10-14 12:04:38,459 DEBUG   SenderThread:7156 [sender.py:send():122] send: stats
+2022-10-14 12:04:41,025 DEBUG   HandlerThread:7156 [handler.py:handle_request():101] handle_request: status
+2022-10-14 12:04:41,026 DEBUG   SenderThread:7156 [sender.py:send():122] send: request
+2022-10-14 12:04:41,026 DEBUG   SenderThread:7156 [sender.py:send_request():131] send_request: status
+2022-10-14 12:04:43,073 DEBUG   SenderThread:7156 [sender.py:send():122] send: stats
+2022-10-14 12:04:43,741 DEBUG   HandlerThread:7156 [handler.py:handle_request():101] handle_request: log_artifact
+2022-10-14 12:04:43,741 DEBUG   SenderThread:7156 [sender.py:send():122] send: request
+2022-10-14 12:04:43,742 DEBUG   SenderThread:7156 [sender.py:send_request():131] send_request: log_artifact
+2022-10-14 12:04:44,335 DEBUG   HandlerThread:7156 [handler.py:handle_request():101] handle_request: poll_exit
+2022-10-14 12:04:50,227 DEBUG   SenderThread:7156 [sender.py:send():122] send: summary
+2022-10-14 12:04:50,230 INFO    SenderThread:7156 [sender.py:_save_file():730] saving file wandb-summary.json with policy end
+2022-10-14 12:04:50,230 DEBUG   SenderThread:7156 [sender.py:send():122] send: summary
+2022-10-14 12:04:50,231 INFO    SenderThread:7156 [sender.py:_save_file():730] saving file wandb-summary.json with policy end
+2022-10-14 12:04:50,231 DEBUG   SenderThread:7156 [sender.py:send():122] send: files
+2022-10-14 12:04:50,231 INFO    SenderThread:7156 [sender.py:_save_file():730] saving file media/images/feature_importance_0_4f695dfd.png with policy now
+2022-10-14 12:04:50,232 DEBUG   SenderThread:7156 [sender.py:send():122] send: history
+2022-10-14 12:04:50,232 DEBUG   SenderThread:7156 [sender.py:send():122] send: summary
+2022-10-14 12:04:50,232 INFO    SenderThread:7156 [sender.py:_save_file():730] saving file wandb-summary.json with policy end
+2022-10-14 12:04:50,233 DEBUG   SenderThread:7156 [sender.py:send():122] send: telemetry
+2022-10-14 12:04:50,674 DEBUG   SenderThread:7156 [sender.py:send():122] send: exit
+2022-10-14 12:04:50,675 INFO    SenderThread:7156 [sender.py:send_exit():200] handling exit code: 0
+2022-10-14 12:04:50,675 INFO    SenderThread:7156 [sender.py:send_exit():208] send defer
+2022-10-14 12:04:50,675 DEBUG   SenderThread:7156 [sender.py:send():122] send: request
+2022-10-14 12:04:50,675 DEBUG   SenderThread:7156 [sender.py:send_request():131] send_request: poll_exit
+2022-10-14 12:04:50,675 DEBUG   SenderThread:7156 [sender.py:send():122] send: stats
+2022-10-14 12:04:50,676 DEBUG   HandlerThread:7156 [handler.py:handle_request():101] handle_request: defer
+2022-10-14 12:04:50,676 INFO    HandlerThread:7156 [handler.py:handle_request_defer():115] handle defer: 0
+2022-10-14 12:04:50,676 DEBUG   SenderThread:7156 [sender.py:send():122] send: request
+2022-10-14 12:04:50,676 DEBUG   SenderThread:7156 [sender.py:send_request():131] send_request: defer
+2022-10-14 12:04:50,676 INFO    SenderThread:7156 [sender.py:send_request_defer():217] handle sender defer: 0
+2022-10-14 12:04:50,676 INFO    SenderThread:7156 [sender.py:send_request_defer():253] send defer: 1
+2022-10-14 12:04:50,677 DEBUG   HandlerThread:7156 [handler.py:handle_request():101] handle_request: defer
+2022-10-14 12:04:50,677 INFO    HandlerThread:7156 [handler.py:handle_request_defer():115] handle defer: 1
+2022-10-14 12:04:50,767 DEBUG   SenderThread:7156 [sender.py:send():122] send: request
+2022-10-14 12:04:50,767 DEBUG   SenderThread:7156 [sender.py:send_request():131] send_request: defer
+2022-10-14 12:04:50,767 INFO    SenderThread:7156 [sender.py:send_request_defer():217] handle sender defer: 1
+2022-10-14 12:04:50,767 INFO    SenderThread:7156 [sender.py:send_request_defer():253] send defer: 2
+2022-10-14 12:04:50,767 DEBUG   SenderThread:7156 [sender.py:send():122] send: stats
+2022-10-14 12:04:50,768 DEBUG   HandlerThread:7156 [handler.py:handle_request():101] handle_request: defer
+2022-10-14 12:04:50,768 INFO    HandlerThread:7156 [handler.py:handle_request_defer():115] handle defer: 2
+2022-10-14 12:04:50,768 DEBUG   SenderThread:7156 [sender.py:send():122] send: request
+2022-10-14 12:04:50,768 DEBUG   SenderThread:7156 [sender.py:send_request():131] send_request: defer
+2022-10-14 12:04:50,768 INFO    SenderThread:7156 [sender.py:send_request_defer():217] handle sender defer: 2
+2022-10-14 12:04:50,768 INFO    SenderThread:7156 [sender.py:send_request_defer():253] send defer: 3
+2022-10-14 12:04:50,769 DEBUG   HandlerThread:7156 [handler.py:handle_request():101] handle_request: defer
+2022-10-14 12:04:50,769 INFO    HandlerThread:7156 [handler.py:handle_request_defer():115] handle defer: 3
+2022-10-14 12:04:50,769 DEBUG   SenderThread:7156 [sender.py:send():122] send: summary
+2022-10-14 12:04:50,770 INFO    SenderThread:7156 [sender.py:_save_file():730] saving file wandb-summary.json with policy end
+2022-10-14 12:04:50,770 DEBUG   SenderThread:7156 [sender.py:send():122] send: request
+2022-10-14 12:04:50,770 DEBUG   SenderThread:7156 [sender.py:send_request():131] send_request: defer
+2022-10-14 12:04:50,770 INFO    SenderThread:7156 [sender.py:send_request_defer():217] handle sender defer: 3
+2022-10-14 12:04:50,770 INFO    SenderThread:7156 [sender.py:send_request_defer():253] send defer: 4
+2022-10-14 12:04:50,770 DEBUG   HandlerThread:7156 [handler.py:handle_request():101] handle_request: defer
+2022-10-14 12:04:50,771 INFO    HandlerThread:7156 [handler.py:handle_request_defer():115] handle defer: 4
+2022-10-14 12:04:50,771 DEBUG   SenderThread:7156 [sender.py:send():122] send: request
+2022-10-14 12:04:50,771 DEBUG   SenderThread:7156 [sender.py:send_request():131] send_request: defer
+2022-10-14 12:04:50,771 INFO    SenderThread:7156 [sender.py:send_request_defer():217] handle sender defer: 4
+2022-10-14 12:04:51,601 INFO    SenderThread:7156 [sender.py:send_request_defer():253] send defer: 5
+2022-10-14 12:04:51,602 DEBUG   HandlerThread:7156 [handler.py:handle_request():101] handle_request: defer
+2022-10-14 12:04:51,602 INFO    HandlerThread:7156 [handler.py:handle_request_defer():115] handle defer: 5
+2022-10-14 12:04:51,602 DEBUG   SenderThread:7156 [sender.py:send():122] send: request
+2022-10-14 12:04:51,602 DEBUG   SenderThread:7156 [sender.py:send_request():131] send_request: defer
+2022-10-14 12:04:51,602 INFO    SenderThread:7156 [sender.py:send_request_defer():217] handle sender defer: 5
+2022-10-14 12:04:51,603 INFO    SenderThread:7156 [sender.py:send_request_defer():253] send defer: 6
+2022-10-14 12:04:51,603 DEBUG   HandlerThread:7156 [handler.py:handle_request():101] handle_request: defer
+2022-10-14 12:04:51,603 INFO    HandlerThread:7156 [handler.py:handle_request_defer():115] handle defer: 6
+2022-10-14 12:04:51,604 DEBUG   SenderThread:7156 [sender.py:send():122] send: request
+2022-10-14 12:04:51,604 DEBUG   SenderThread:7156 [sender.py:send_request():131] send_request: defer
+2022-10-14 12:04:51,604 INFO    SenderThread:7156 [sender.py:send_request_defer():217] handle sender defer: 6
+2022-10-14 12:04:52,085 INFO    SenderThread:7156 [sender.py:send_request_defer():253] send defer: 7
+2022-10-14 12:04:52,093 DEBUG   HandlerThread:7156 [handler.py:handle_request():101] handle_request: defer
+2022-10-14 12:04:52,094 INFO    HandlerThread:7156 [handler.py:handle_request_defer():115] handle defer: 7
+2022-10-14 12:04:52,097 DEBUG   SenderThread:7156 [sender.py:send():122] send: request
+2022-10-14 12:04:52,097 DEBUG   SenderThread:7156 [sender.py:send_request():131] send_request: defer
+2022-10-14 12:04:52,104 INFO    SenderThread:7156 [sender.py:send_request_defer():217] handle sender defer: 7
+2022-10-14 12:04:52,104 INFO    SenderThread:7156 [sender.py:send_request_defer():253] send defer: 8
+2022-10-14 12:04:52,110 DEBUG   HandlerThread:7156 [handler.py:handle_request():101] handle_request: defer
+2022-10-14 12:04:52,111 DEBUG   SenderThread:7156 [sender.py:send():122] send: final
+2022-10-14 12:04:52,111 INFO    HandlerThread:7156 [handler.py:handle_request_defer():115] handle defer: 8
+2022-10-14 12:04:52,111 DEBUG   SenderThread:7156 [sender.py:send():122] send: footer
+2022-10-14 12:04:52,111 DEBUG   SenderThread:7156 [sender.py:send():122] send: request
+2022-10-14 12:04:52,111 DEBUG   SenderThread:7156 [sender.py:send_request():131] send_request: defer
+2022-10-14 12:04:52,112 INFO    SenderThread:7156 [sender.py:send_request_defer():217] handle sender defer: 8
+2022-10-14 12:04:52,678 DEBUG   HandlerThread:7156 [handler.py:handle_request():101] handle_request: poll_exit
+2022-10-14 12:04:52,679 DEBUG   SenderThread:7156 [sender.py:send():122] send: request
+2022-10-14 12:04:52,679 DEBUG   SenderThread:7156 [sender.py:send_request():131] send_request: poll_exit
+2022-10-14 12:04:54,682 DEBUG   HandlerThread:7156 [handler.py:handle_request():101] handle_request: poll_exit
+2022-10-14 12:04:54,683 DEBUG   SenderThread:7156 [sender.py:send():122] send: request
+2022-10-14 12:04:54,683 DEBUG   SenderThread:7156 [sender.py:send_request():131] send_request: poll_exit
+2022-10-14 12:04:54,684 DEBUG   HandlerThread:7156 [handler.py:handle_request():101] handle_request: get_summary
+2022-10-14 12:04:54,685 DEBUG   HandlerThread:7156 [handler.py:handle_request():101] handle_request: sampled_history
+2022-10-14 12:04:54,686 DEBUG   HandlerThread:7156 [handler.py:handle_request():101] handle_request: shutdown
+2022-10-14 12:04:54,686 INFO    HandlerThread:7156 [handler.py:finish():535] shutting down handler
+2022-10-14 12:04:55,111 INFO    WriterThread:7156 [datastore.py:close():258] close: /home/smartrue/Dropbox/current_codes/udacity/short-term-rental-prices/src/train_random_forest/wandb/run-20221014_120424-3jiaxwje/run-3jiaxwje.wandb
+2022-10-14 12:04:55,683 INFO    SenderThread:7156 [sender.py:finish():833] shutting down sender
+2022-10-14 12:04:55,684 INFO    MainThread:7156 [internal.py:handle_exit():78] Internal process exited

@@ -1,0 +1,36 @@
+name: basic_cleaning
+conda_env: conda.yml
+
+entry_points:
+  main:
+    parameters:
+
+      input_artifact:
+        description: the csv file saved on W&B as sample.csv
+        type: string
+
+      output_artifact:
+        description: the name of the output file namely clean_sample.csv
+        type: string
+
+      output_type:
+        description: The output should be a pandas dataframe (pd.Dataframe)
+        type: string
+
+      output_description:
+        description: The output is a dataframe with prices between min_price and max_price
+        type: string
+
+      min_price:
+        description: The lower limit of prices
+        type: string
+
+      max_price:
+        description: The upper limit of prices
+        type: string
+
+
+    command: >-
+        python run.py  --input_artifact {input_artifact}  --output_artifact {output_artifact}\
+          --output_type {output_type}  --output_description {output_description}\
+            --min_price {min_price}  --max_price {max_price}

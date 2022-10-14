@@ -1,0 +1,27 @@
+{
+    "os": "Linux-5.4.0-73-generic-x86_64-with-glibc2.27",
+    "python": "3.9.13",
+    "heartbeatAt": "2022-10-13T13:59:05.206809",
+    "startedAt": "2022-10-13T13:59:04.023066",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 2080 Ti",
+    "gpu_count": 2,
+    "cpu_count": 20,
+    "cuda": "10.0.130",
+    "args": [
+        "--sample",
+        "sample1.csv",
+        "--artifact_name",
+        "sample.csv",
+        "--artifact_type",
+        "raw_data",
+        "--artifact_description",
+        "Raw file as downloaded"
+    ],
+    "state": "running",
+    "program": "/home/smartrue/Dropbox/current_codes/udacity/short-term-rental-prices/src/get_data/run.py",
+    "codePath": "run.py",
+    "host": "smartrue-System-Product-Name",
+    "username": "smartrue",
+    "executable": "/home/smartrue/anaconda3/envs/mlflow-29f016861ab81483ae899a130f384738fb427d17/bin/python"
+}

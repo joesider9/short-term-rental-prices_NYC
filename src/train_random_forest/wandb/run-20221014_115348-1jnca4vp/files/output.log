@@ -1,0 +1,16 @@
+2022-10-14 11:53:51,390 Minimum price: 10, Maximum price: 350
+2022-10-14 11:53:51,402 Preparing sklearn pipeline
+Traceback (most recent call last):
+  File "run.py", line 293, in <module>
+    go(args)
+  File "run.py", line 71, in go
+    sk_pipe, processed_features = get_inference_pipeline(rf_config, args.max_tfidf_features)
+  File "run.py", line 228, in get_inference_pipeline
+    sk_pipe = Pipeline(
+  File "/home/smartrue/anaconda3/envs/mlflow-57a86f2035efa72b60c0113ee0835f5fc62f7069/lib/python3.8/site-packages/sklearn/utils/validation.py", line 63, in inner_f
+    return f(*args, **kwargs)
+  File "/home/smartrue/anaconda3/envs/mlflow-57a86f2035efa72b60c0113ee0835f5fc62f7069/lib/python3.8/site-packages/sklearn/pipeline.py", line 118, in __init__
+    self._validate_steps()
+  File "/home/smartrue/anaconda3/envs/mlflow-57a86f2035efa72b60c0113ee0835f5fc62f7069/lib/python3.8/site-packages/sklearn/pipeline.py", line 168, in _validate_steps
+    raise TypeError("All intermediate steps should be "
+TypeError: All intermediate steps should be transformers and implement fit and transform or be the string 'passthrough' '['room_type', 'neighbourhood_group', 'minimum_nights', 'number_of_reviews', 'reviews_per_month', 'calculated_host_listings_count', 'availability_365', 'longitude', 'latitude', 'last_review', 'name']' (type <class 'list'>) doesn't
